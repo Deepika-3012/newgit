@@ -1,0 +1,13 @@
+name: hello-world
+
+
+on:
+  push:
+
+
+  jobs:
+     my-jobs:
+       runs-on: ubuntu-latest
+        steps:
+         - name : my-syep
+         run : echo "Hello World"
